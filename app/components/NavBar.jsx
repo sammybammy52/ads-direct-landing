@@ -47,9 +47,9 @@ const NavBar = () => {
           <a href="https://test.digitaladplanet.com/dashboard/login">
             <button
             type="button"
-            className={ fix || mobileNav ? "text-white hero-bg hover:scale-110 transition-all duration-300 focus:ring-4 focus:outline-none focus:ring-blue-300 font-semibold rounded-lg text-sm px-4 py-2 text-center mr-3 md:mr-0 shadow-lg" : "text-primary bg-white hover:scale-110 transition-all duration-300 focus:ring-4 focus:outline-none focus:ring-blue-300 font-semibold rounded-lg text-sm px-4 py-2 text-center mr-3 md:mr-0 shadow-sm"}
+            className={ fix || mobileNav ? "text-white heroo-bg hover:scale-110 transition-all duration-300 focus:ring-4 focus:outline-none focus:ring-blue-300 font-semibold rounded-lg text-sm px-4 py-2 text-center mr-3 md:mr-0 shadow-lg" : "text-white heroo-bg hover:scale-110 transition-all duration-300 focus:ring-4 focus:outline-none focus:ring-blue-300 font-semibold rounded-lg text-sm px-4 py-2 text-center mr-3 md:mr-0 shadow-sm"}
           >
-            Get started
+            Login
           </button>
           </a>
           <a href="https://test.digitaladplanet.com/dashboard/login">
