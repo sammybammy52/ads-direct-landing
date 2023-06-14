@@ -3,6 +3,8 @@ import useEmblaCarousel from "embla-carousel-react";
 import Autoplay from "embla-carousel-autoplay";
 import Image from "next/image";
 import { SVGs } from "../assets/svgs/SVGs";
+import thePunch from "../assets/punch-logo.png";
+import theSun from "../assets/the_sun.png";
 
 const Partners = () => {
   const [emblaRef] = useEmblaCarousel({ loop: false }, [Autoplay()]);
@@ -29,6 +31,8 @@ const Partners = () => {
                   <Image src={SVGs.budweiser} className="" height="100" width="100" />
                   <Image src={SVGs.forbes} className="" height="100" width="100" />
                   <Image src={SVGs.mensHealth} className="" height="100" width="100" />
+                  <Image src={thePunch} className="" height="120" width="120" />
+                  <Image src={theSun} className="" height="120" width="120" />
                 </div>
                 <div className="embla__slide flex items-center space-x-4">
                   <Image src={SVGs.threeM} className="" height="100" width="100" />
@@ -37,10 +41,13 @@ const Partners = () => {
                   <Image src={SVGs.forbes} className="" height="100" width="100" />
                 </div>
                 <div className="embla__slide flex items-center space-x-4">
+                    <Image src={theSun} className="" height="120" width="120" />
                     <Image src={SVGs.mensHealth} className="" height="100" width="100" />
                     <Image src={SVGs.forbes} className="" height="100" width="100" />
                     <Image src={SVGs.threeM} className="" height="100" width="100" />
                     <Image src={SVGs.budweiser} className="" height="100" width="100" />
+                    <Image src={thePunch} className="" height="120" width="120" />
+
                 </div>
               </div>
             </div>

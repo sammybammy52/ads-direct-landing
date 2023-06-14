@@ -4,7 +4,8 @@ import React from "react";
 import Fade from "react-reveal/Fade";
 import Zoom from "react-reveal/Zoom";
 import Image from "next/image";
-import { SVGs } from "../assets/svgs/SVGs";
+// import { SVGs } from "../assets/svgs/SVGs";
+import adsDirect from "../assets/images/african_office.jpg";
 
 const About = () => {
   return (
@@ -158,23 +159,21 @@ const About = () => {
               </div>
             </div>
           </Fade>
-          {/* <Fade right duration={1500} delay={300}> */}
           <div>
             {/* <img
-              src="https://unsplash.com/photos/Hjb1R72x6Hg"
-              // src="./assets/adsdirect.jpg"
+              // src="https://unsplash.com/photos/Hjb1R72x6Hg"
+              src="./assets/adsdirect.jpg"
               class="w-full rounded-lg shadow-lg dark:shadow-black/20"
               alt=""
             /> */}
 
             <Image
-              src="https://www.adspace.ng/images/monitor.png"
+              src={adsDirect}
               className="w-full rounded-lg shadow-lg dark:shadow-black/20 moving-div"
               height="100"
               width="100"
             />
           </div>
-          {/* </Fade> */}
         </div>
       </div>
       {/* <!-- Jumbotron --> */}
