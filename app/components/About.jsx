@@ -41,10 +41,10 @@ const About = () => {
                       </svg>
                       Marketing
                     </h4>
-                    <p className="text-white ">
-                      Protect your organization, devices and stay compliant with
-                      our structured workflows and custom permissions made for
-                      you.
+                    <p className="text-white mr-4">
+                      Plan it, create it, launch it. Collaborate seamlessly with
+                      all the organization and hit your marketing goals every
+                      month with our marketing plan.
                     </p>
                   </div>
 
@@ -159,21 +159,21 @@ const About = () => {
             </div>
           </Fade>
           {/* <Fade right duration={1500} delay={300}> */}
-            <div>
-              {/* <img
+          <div>
+            {/* <img
               src="https://unsplash.com/photos/Hjb1R72x6Hg"
               // src="./assets/adsdirect.jpg"
               class="w-full rounded-lg shadow-lg dark:shadow-black/20"
               alt=""
             /> */}
 
-              <Image
-                src="https://www.adspace.ng/images/monitor.png"
-                className="w-full rounded-lg shadow-lg dark:shadow-black/20 moving-div"
-                height="100"
-                width="100"
-              />
-            </div>
+            <Image
+              src="https://www.adspace.ng/images/monitor.png"
+              className="w-full rounded-lg shadow-lg dark:shadow-black/20 moving-div"
+              height="100"
+              width="100"
+            />
+          </div>
           {/* </Fade> */}
         </div>
       </div>
