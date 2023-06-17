@@ -5,11 +5,13 @@ import Image from "next/image";
 import { SVGs } from "../assets/svgs/SVGs";
 import thePunch from "../assets/punch-logo.png";
 import theSun from "../assets/the_sun.png";
+import { Container } from "@chakra-ui/react";
 
 const Partners = () => {
   const [emblaRef] = useEmblaCarousel({ loop: false }, [Autoplay()]);
 
   return (
+    
     <div>
       <div className="2xl:mx-auto 2xl:container py-12 lg:px-20 md:px-6 px-4 ">
         <div className="w-full flex flex-col justify-center items-center">
@@ -26,6 +28,7 @@ const Partners = () => {
               magazines across the world
             </p>
           </div>
+            <Container>
 
             <div className="embla" ref={emblaRef}>
               <div className="embla__container">
@@ -54,6 +57,7 @@ const Partners = () => {
                 </div>
               </div>
             </div>
+            </Container>
         </div>
       </div>
     </div>
