@@ -190,8 +190,8 @@ const Footer = () => {
       <div class="w-full px-4 sm:w-2/3 lg:w-3/12">
         <div class="mb-10 w-full">
           <a href="javascript:void(0)" class="mb-6 inline-block max-w-[160px]">
-            <img
-              src="https://cdn.tailgrids.com/2.0/image/assets/images/logo/logo.svg"
+            <Image
+              src={Logo}
               alt="logo"
               class="max-w-full"
             />
@@ -405,7 +405,7 @@ const Footer = () => {
               </svg>
             </a>
           </div>
-          <p class="text-body-color text-base">&copy; 2025 TailGrids</p>
+          <p class="text-body-color text-base">&copy; 2023 Ads Direct. All Rights Reserved</p>
         </div>
       </div>
     </div>

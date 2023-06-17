@@ -14,9 +14,12 @@ const Partners = () => {
       <div className="2xl:mx-auto 2xl:container py-12 lg:px-20 md:px-6 px-4 ">
         <div className="w-full flex flex-col justify-center items-center">
           <div className="flex flex-col justify-center items-center text-center space-y-4">
-            <h1 className="text-3xl lg:text-4xl font-semibold leading-9 md:leading-7 lg:leading-9 text-gray-800">
-              Our Trusted Partners And Clients
-            </h1>
+            {/* <h1 className="text-3xl lg:text-4xl font-semibold leading-9 md:leading-7 lg:leading-9 text-gray-800">
+              
+            </h1> */}
+            <h3 className="text-center text-3xl font-semibold ">
+              <span className="text-primary">Our Trusted Partners And Clients</span>
+            </h3>
             <p className="text-base leading-6 text-center text-gray-600 w-full md:w-10/12">
               We just got featured in the following magazines and it has been
               the most incredible journey. We work with the best fashion

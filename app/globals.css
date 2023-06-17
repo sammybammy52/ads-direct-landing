@@ -13,11 +13,13 @@
 
 .heroo-bg{
   background: rgb(46,49,146);
-  background: linear-gradient(45deg, rgba(46,49,146,1) 0%, rgba(177,60,83,1) 85%, rgba(239,65,54,1) 100%); 
+  /* background: linear-gradient(45deg, rgba(46,49,146,1) 0%, rgba(177,60,83,1) 85%, rgba(239,65,54,1) 100%);  */
 }
 
 .cursor-pointer {
   cursor: pointer;
+  background-image: url('https://mdbcdn.b-cdn.net/img/new/slides/146.webp');
+
 }
 
 @keyframes moveUpDown {
@@ -108,7 +110,11 @@
   .hero-img {
     background-position: 50%;
     background-image: url('https://mdbcdn.b-cdn.net/img/new/slides/146.webp');
-    height: 500px;
+    height: 600px;
+  }
+
+  .zoom:hover img {
+    transform: scale(1.1);
   }
 
 
