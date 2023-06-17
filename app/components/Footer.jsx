@@ -1,7 +1,7 @@
 "use client";
 import Image from "next/image";
 import React from "react";
-import Logo from "../assets/logo.png"
+import Logo from "../assets/images/pngs/newLogo.png"
 import { Container } from "@chakra-ui/react";
 
 const Footer = () => {
@@ -184,7 +184,7 @@ const Footer = () => {
     // <!-- ====== Footer Section Start -->
     <Container maxW={"7xl"}>
 
-<footer class="relative z-10 bg-white pt-20 pb-10 lg:pt-[120px] lg:pb-20">
+<footer class="relative z-10 bg-white pt-20 pb-10 lg:pt-[120px] lg:pb-10">
   <div class="container mx-auto">
     <div class="-mx-4 flex flex-wrap">
       <div class="w-full px-4 sm:w-2/3 lg:w-3/12">
@@ -345,7 +345,7 @@ const Footer = () => {
           <h4 class="text-dark mb-9 text-lg font-semibold">Follow Us On</h4>
           <div class="mb-6 flex items-center">
             <a
-              href="javascript:void(0)"
+              href="https://facebook.com/adsdirectng"
               class="text-dark hover:bg-primary hover:border-primary mr-3 flex h-8 w-8 items-center justify-center rounded-full border border-[#E5E5E5] hover:text-white sm:mr-4 lg:mr-3 xl:mr-4"
             >
               <svg
@@ -360,7 +360,7 @@ const Footer = () => {
               </svg>
             </a>
             <a
-              href="javascript:void(0)"
+              href="https://twitter.com/adsdirect_ng"
               class="text-dark hover:bg-primary hover:border-primary mr-3 flex h-8 w-8 items-center justify-center rounded-full border border-[#E5E5E5] hover:text-white sm:mr-4 lg:mr-3 xl:mr-4"
             >
               <svg

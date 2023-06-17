@@ -62,13 +62,13 @@ import { Container } from "@chakra-ui/react";
 import Fade from "react-reveal/Fade";
 import Image from "next/image";
 import newsPaper from "../assets/images/newspaper.jpg";
-import tv from "../assets/images/tv.jpg";
+import tv from "../assets/images/new-tv.jpg";
 import radioo from "../assets/images/radioo.jpg";
 import digital from "../assets/images/african_presenter.jpg";
 import outdoor from "../assets/images/outdoor-advert.jpg";
 import cinema from "../assets/images/cinema.jpg";
 import bus from "../assets/images/bus.jpg";
-import airplane from "../assets/images/airplane.jpg";
+import airplane from "../assets/images/airplanee.jpg";
 
 const ExploreSection = () => {
   return (
@@ -135,7 +135,7 @@ const ExploreSection = () => {
                 data-te-ripple-color="light"
               >
                 <Image
-                  src={bus}
+                  src={tv}
                   className="w-full align-middle transition duration-300 ease-linear"
                 />
                 <a href="https://www.youtube.com/watch?v=VyAhBO0KdCY">
