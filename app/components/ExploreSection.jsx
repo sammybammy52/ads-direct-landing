@@ -75,7 +75,8 @@ const ExploreSection = () => {
     <Container maxW={"7xl"}>
       <Fade left delay={300} duration={1700}>
           <section className="mb-32 ">
-        <div className="container my-24 mx-auto md:px-6">
+        {/* <div className="container my-24 mx-auto md:px-6"> */}
+        <div className="container my-24 mx-auto">
             <h3 className="text-center text-3xl font-semibold mb-10">
               <span className="text-primary">Explore Ad Boards by genre</span>
             </h3>
