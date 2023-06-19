@@ -71,6 +71,9 @@
     margin-right: 25px;
   }
 
+  .about-img {
+    min-height: 570px;
+  }
 
   /* #WHY CHOOSE US */
   .video-box {
