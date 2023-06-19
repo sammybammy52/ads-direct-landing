@@ -183,21 +183,22 @@ const About = () => {
         <section className="mb-32">
           {/* <h2 className="mb-12 text-center text-3xl font-bold">
           </h2> */}
+
           <h3 className="text-center text-3xl font-semibold mb-5">
-            <span className="text-primary"> Why Choose Adsdirect?</span>
+            <span className="text-primary "> Why Choose Adsdirect?</span>
           </h3>
           {/* <p class="mb-6 pb-2  text-neutral-500 text-black">
             Here at Ads Direct we focus on markets where technology, innovation,
             and capital can unlock long-term value and drive economic growth.
           </p> */}
-          <p className=" mb-6 pb-2 font-light text-gray-500 ">
-          Here at Ads Direct we focus on markets where technology, innovation,
+          <p className="text-center mb-6 pb-2 font-light text-gray-500 ">
+            Here at Ads Direct we focus on markets where technology, innovation,
             and capital can unlock long-term value and drive economic growth.
-                  </p>
+          </p>
 
           <div className="flex flex-wrap ">
             <div className="mb-12 w-full shrink-0 grow-0 basis-auto md:px-6 lg:mb-0 lg:w-5/12">
-                <Image src={adsDirect} className="w-full moving-div" />
+              <Image src={adsDirect} className="w-full moving-div" />
               {/* </div> */}
             </div>
 
@@ -220,7 +221,9 @@ const About = () => {
                   </div>
                 </div>
                 <div className="ml-4 grow">
-                  <h4 class="flex font-light text-black gap-2 text-xl">Marketing</h4>
+                  <h4 class="flex font-light text-black gap-2 text-xl">
+                    Marketing
+                  </h4>
                   <p className="font-light text-gray-500 mr-4">
                     Plan it, create it, launch it. Collaborate seamlessly with
                     all the organization and hit your marketing goals every
@@ -270,9 +273,7 @@ const About = () => {
                   </div>
                 </div>
                 <div className="ml-4 grow">
-                  <h4 class="flex gap-2 text-xl">
-                    Business Automation
-                  </h4>
+                  <h4 class="flex gap-2 text-xl">Business Automation</h4>
                   <p className="font-light text-gray-500 mr-4">
                     Auto-assign tasks, send Slack messages, and much more. Now
                     power up with hundreds of new templates to help you get

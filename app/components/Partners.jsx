@@ -4,7 +4,14 @@ import Autoplay from "embla-carousel-autoplay";
 import Image from "next/image";
 import { SVGs } from "../assets/svgs/SVGs";
 import thePunch from "../assets/punch-logo.png";
-import theSun from "../assets/the_sun.png";
+import theSun from "../assets/images/pngs/the_sun.png";
+import ariseNews from "../assets/images/pngs/arise-news.jpg";
+import foxChannel from "../assets/images/pngs/fox-channel-removebg.png";
+import vanguard from "../assets/images/pngs/Vanguard-removebg.png";
+import channels from "../assets/images/pngs/channels-TV.png";
+import guardian from "../assets/images/pngs/the-guardian-removebg.png";
+import jumiaLogo from "../assets/images/pngs/jumia-Logo.png";
+import cnn from "../assets/images/pngs/CNN.png";
 import { Container } from "@chakra-ui/react";
 
 const Partners = () => {
@@ -28,31 +35,39 @@ const Partners = () => {
               magazines across the world
             </p>
           </div>
-            <Container>
+            <Container maxW={"7xl"}>
 
             <div className="embla" ref={emblaRef}>
               <div className="embla__container">
                 <div className="embla__slide flex items-center space-x-4">
-                  <Image src={SVGs.barstoolStore} className="" height="100" width="100" />
-                  <Image src={SVGs.budweiser} className="" height="100" width="100" />
-                  <Image src={SVGs.forbes} className="" height="100" width="100" />
-                  <Image src={SVGs.mensHealth} className="" height="100" width="100" />
+                  <Image src={foxChannel} className="" height="100" width="100" />
+                  <Image src={vanguard} className="" height="100" width="100" />
+                  <Image src={ariseNews} className="" height="100" width="100" />
+                  {/* <Image src={channels} className="" height="100" width="100" /> */}
+                  <Image src={jumiaLogo} className="" height="100" width="100" />
                   <Image src={thePunch} className="" height="120" width="120" />
                   <Image src={theSun} className="" height="120" width="120" />
                 </div>
-                <div className="embla__slide flex items-center space-x-4">
+                <div className="embla__slide flex items-center space-x-4 embla-margin">
                   <Image src={SVGs.threeM} className="" height="100" width="100" />
-                  <Image src={SVGs.barstoolStore} className="" height="100" width="100" />
+                  <Image src={cnn} className="" height="100" width="100" />
                   <Image src={SVGs.budweiser} className="" height="100" width="100" />
+                  <Image src={guardian} className="" height="100" width="100" />
                   <Image src={SVGs.forbes} className="" height="100" width="100" />
+                  <Image src={vanguard} className="" height="100" width="100" />
+
+
                 </div>
                 <div className="embla__slide flex items-center space-x-4">
                     <Image src={theSun} className="" height="120" width="120" />
                     <Image src={SVGs.mensHealth} className="" height="100" width="100" />
-                    <Image src={SVGs.forbes} className="" height="100" width="100" />
+                    <Image src={ariseNews} className="" height="100" width="100" />
                     <Image src={SVGs.threeM} className="" height="100" width="100" />
                     <Image src={SVGs.budweiser} className="" height="100" width="100" />
                     <Image src={thePunch} className="" height="120" width="120" />
+                    <Image src={vanguard} className="" height="100" width="100" />
+
+
 
                 </div>
               </div>

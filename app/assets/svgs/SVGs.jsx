@@ -4,4 +4,6 @@ export const SVGs = {
     threeM: require('../svgs/3m.svg').default,
     barstoolStore: require('../svgs/barstool-store.svg').default,
     budweiser: require('../svgs/budweiser.svg').default,
+    budweiser: require('../svgs/budweiser.svg').default,
+    logoWhite: require('../svgs/logo-white.svg').default,
 }

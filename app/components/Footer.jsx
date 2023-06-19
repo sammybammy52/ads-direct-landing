@@ -1,7 +1,8 @@
 "use client";
 import Image from "next/image";
 import React from "react";
-import Logo from "../assets/images/pngs/newLogo.png"
+// import Logo from "../assets/images/pngs/newLogo.png"
+import { SVGs } from "../assets/svgs/SVGs";
 import { Container } from "@chakra-ui/react";
 
 const Footer = () => {
@@ -182,21 +183,21 @@ const Footer = () => {
 
 
     // <!-- ====== Footer Section Start -->
-    <Container maxW={"7xl"}>
+    // <Container maxW={"7xl"}>
 
-<footer class="relative z-10 bg-white pt-20 pb-10 lg:pt-[120px] lg:pb-10">
+<footer class="relative z-10 footer pt-20 pb-10 lg:pt-[120px] lg:pb-10">
   <div class="container mx-auto">
     <div class="-mx-4 flex flex-wrap">
       <div class="w-full px-4 sm:w-2/3 lg:w-3/12">
         <div class="mb-10 w-full">
           <a href="javascript:void(0)" class="mb-6 inline-block max-w-[160px]">
             <Image
-              src={Logo}
+              src={SVGs.logoWhite}
               alt="logo"
               class="max-w-full"
             />
           </a>
-          <p class="text-body-color mb-7 text-base">
+          <p class="text-body-color font-light mb-7 text-base">
             Sed ut perspiciatis undmnis is iste natus error sit amet voluptatem
             totam rem aperiam.
           </p>
@@ -467,7 +468,7 @@ const Footer = () => {
     </span>
   </div>
 </footer>
-</Container>
+// </Container>
 // <!-- ====== Footer Section End -->
 
 

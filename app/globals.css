@@ -17,6 +17,11 @@
   /* background: linear-gradient(45deg, rgba(46,49,146,1) 0%, rgba(177,60,83,1) 85%, rgba(239,65,54,1) 100%);  */
 }
 
+.confused {
+  background: #B175FF;
+
+}
+
 .cursor-pointer {
   cursor: pointer;
   background-image: url('https://mdbcdn.b-cdn.net/img/new/slides/146.webp');
@@ -54,13 +59,17 @@
     display: flex;
     justify-content: center;
     margin-top: 40px;
-    flex: 0 0 150%;
+    flex: 0 0 250%;
     min-width: 0;
   }
   .embla__slide img {
     height: 50px;
     margin: 0 40px;
   }  
+
+  .embla-margin {
+    margin-right: 25px;
+  }
 
 
   /* #WHY CHOOSE US */
@@ -111,12 +120,20 @@
   .hero-img {
     background-position: 50%;
     background-image: url('https://mdbcdn.b-cdn.net/img/new/slides/146.webp');
-    height: 600px;
+    min-height: 490px;
   }
 
   .zoom:hover img {
     transform: scale(1.1);
   }
+
+  .footer {
+    background: #323E42;
+    color: #fff;
+    padding: 60px 20px;
+  }
+
+
 
 
 
