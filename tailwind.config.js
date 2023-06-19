@@ -11,7 +11,9 @@ module.exports = {
         transparent: 'transparent',
         current: 'currentColor',
         'primary': '#2E3192',
-        'secondary': '#EF4136'
+        'secondary': '#EF4136',
+        'primary-light': '#eaeaf4'
+        
         
       },
       backgroundImage: {

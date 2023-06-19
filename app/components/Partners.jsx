@@ -10,7 +10,7 @@ import foxChannel from "../assets/images/pngs/fox-channel-removebg.png";
 import vanguard from "../assets/images/pngs/Vanguard-removebg.png";
 import channels from "../assets/images/pngs/channels-TV.png";
 import guardian from "../assets/images/pngs/the-guardian-removebg.png";
-import jumiaLogo from "../assets/images/pngs/jumia-Logo.png";
+import jumiaLogo from "../assets/images/pngs/Jumia-Logo.png";
 import cnn from "../assets/images/pngs/CNN.png";
 import { Container } from "@chakra-ui/react";
 
@@ -19,7 +19,7 @@ const Partners = () => {
 
   return (
     
-    <div>
+    <div className="py-20">
       <div className="2xl:mx-auto 2xl:container py-12 lg:px-20 md:px-6 px-4 ">
         <div className="w-full flex flex-col justify-center items-center">
           <div className="flex flex-col justify-center items-center text-center space-y-4">

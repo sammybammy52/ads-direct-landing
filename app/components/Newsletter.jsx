@@ -2,7 +2,7 @@ import React from 'react'
 
 const Newsletter = () => {
   return (
-    <section className="heroo-bg py-6">
+    <section className="bg-primary py-6">
   <div className="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6">
     <div className="mx-auto max-w-screen-md sm:text-center">
       <h2 className="mb-4 text-3xl tracking-tight font-extrabold text-gray-900 sm:text-4xl dark:text-white">Sign up for our newsletter</h2>
@@ -19,7 +19,7 @@ const Newsletter = () => {
           <div>
             
             {/* <button type="submit" className="py-3 px-5 w-full text-sm font-medium text-center text-white rounded-lg  cursor-pointer bg-secondary sm:rounded-none sm:rounded-r-lg hover:bg-primary-800 ">Subscribe</button> */}
-            <button type="submit" className="py-3 px-5 w-full text-sm font-medium text-center text-white rounded-lg bg-[#EF4136]  sm:rounded-none sm:rounded-r-lg  ">Subscribe</button>
+            <button type="submit" className="py-3 px-5 w-full text-sm font-medium text-center text-white rounded-lg bg-transparent border-2 sm:rounded-none sm:rounded-r-lg  ">Subscribe</button>
           </div>
         </div>
         <div className="mx-auto max-w-screen-sm text-sm text-left text-gray-50 newsletter-form-footer ">We care about the protection of your data. <a href="#" className="font-medium text-primary-600 dark:text-primary-500 hover:underline">Read our Privacy Policy</a>.</div>
