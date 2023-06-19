@@ -51,7 +51,7 @@ const Hero = () => {
 
 
 
-    <section className="mb-50 lg:h-[75vh]">
+    <section className=" mb-48 lg:h-[75vh]">
       <div class="relative hero-img overflow-hidden bg-cover bg-no-repeat">
       {/* <div class="container mx-auto xl:px-32"> */}
         <div class="absolute top-0 right-0 bottom-0 left-0 h-full w-full overflow-hidden bg-[hsla(0,0%,0%,0.75)] bg-fixed">

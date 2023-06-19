@@ -195,7 +195,7 @@ const About = () => {
             and capital can unlock long-term value and drive economic growth.
                   </p>
 
-          <div className="flex flex-wrap items-center">
+          <div className="flex flex-wrap ">
             <div className="mb-12 w-full shrink-0 grow-0 basis-auto md:px-6 lg:mb-0 lg:w-5/12">
                 <Image src={adsDirect} className="w-full moving-div" />
               {/* </div> */}
