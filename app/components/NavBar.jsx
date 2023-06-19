@@ -2,8 +2,10 @@
 import { useState, useEffect } from "react";
 import Image from "next/image";
 import Fade from "react-reveal/Fade";
-import Logo from "../assets/logo.png"
-import LogoW from "../assets/logo-white.png"
+import Logo from "../assets/images/pngs/newLogo.png"
+import LogoW from "../assets/images/pngs/newLogo.png"
+// import Logo from "../assets/logo.png"
+// import LogoW from "../assets/logo-white.png"
 
 const NavBar = () => {
   const [mobileNav, setMobileNav] = useState(false);
@@ -38,7 +40,7 @@ const NavBar = () => {
     >
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
         <a href="https://flowbite.com/" className="lg:flex lg:items-center">
-           <Image src={ fix || mobileNav ? Logo : LogoW} className="lg:ml-8 lg:mr-3 w-[100px] lg:h-[50px] max-md:h-[40px] object-contain drop-shadow-md" alt="ads-direct-logo" />
+           <Image src={ fix || mobileNav ? Logo : LogoW} className="lg:ml-8 lg:mr-3 w-[150px] lg:h-[70px] max-md:h-[40px] object-contain drop-shadow-md" alt="ads-direct-logo" />
           {/* <span className={ fix || mobileNav ? "self-center text-2xl font-semibold whitespace-nowrap " : "self-center text-2xl font-semibold whitespace-nowrap text-white"}>
             Ads Direct
           </span> */}
@@ -122,7 +124,7 @@ const NavBar = () => {
                       : "block py-2 pl-3 pr-4 text-white rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 "
                   }
                 >
-                  Publishers
+                  Media Partners
                 </a>
               </li>
 
