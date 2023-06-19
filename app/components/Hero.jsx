@@ -57,6 +57,13 @@ const Hero = () => {
                 The best offer on the market <br />
                 <span>for your business</span>
               </h1> */}
+
+    <section className="mb-20 hero-bg lg:h-[82vh]">
+      <div className="px-6 py-12 md:px-12 text-gray-800 text-center lg:text-left">
+        <div className="container mx-auto xl:px-32 ">
+          <div className="grid lg:grid-cols-2 gap-12 flex items-center lg:pt-20">
+            <Fade left delay={300} duration={1500}>
+              <div className="mt-12 lg:mt-0 max-md:mt-20">
                 <h1 className="text-4xl md:text-3xl xl:text-5xl font-bold tracking-tight mb-6 text-white">
                   Find and buy the best advertising options <br />
                   <span className=" text-[#EF4136]">on the go</span>
