@@ -221,7 +221,7 @@ const About = () => {
                   </div>
                 </div>
                 <div className="ml-4 grow">
-                  <h4 class="flex font-light text-black gap-2 text-xl">
+                  <h4 class="flex text-black gap-2 text-xl">
                     Marketing
                   </h4>
                   <p className="font-lightt text-gray-500 mr-4">

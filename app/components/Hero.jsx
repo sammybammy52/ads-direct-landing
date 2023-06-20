@@ -62,7 +62,7 @@ const Hero = () => {
               <Fade left delay={300} duration={1500}>
               <h1 className="text-4xl md:text-3xl xl:text-5xl font-bold tracking-tight mb-6 text-white">
                   Find and buy the best advertising options <br />
-                  <span className=" text-[#EF4136]">on the go</span>
+                  <span className=" text-secondary">on the go</span>
                 </h1> 
                 <p className=" text-white mb-6 lg:text-lg my-3">
                   Launch Ad Campaigns with ease that connect with your target
