@@ -39,9 +39,9 @@ const NavBar = () => {
           : "absolute w-full border-gray-200 transition-all duration-300"
       }
     >
-      <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto px-4 max-md:py-1">
+      <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto px-4 ">
         <a href="https://flowbite.com/" className="lg:flex lg:items-center">
-           <Image src={ fix || mobileNav ? Logo : Logo} className="lg:ml-8 lg:mr-3 w-[80px] lg:h-[80px] max-md:h-[40px] object-contain drop-shadow-md" alt="ads-direct-logo" />
+           <Image src={ fix || mobileNav ? Logo : Logo} className="lg:ml-8 lg:mr-3 w-[80px] lg:h-[80px] max-md:h-[70px] object-contain drop-shadow-md" alt="ads-direct-logo" />
           {/* <span className={ fix || mobileNav ? "self-center text-2xl font-semibold whitespace-nowrap " : "self-center text-2xl font-semibold whitespace-nowrap text-white"}>
             Ads Direct
           </span> */}

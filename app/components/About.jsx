@@ -178,8 +178,9 @@ const About = () => {
     //   </div>
     //   {/* <!-- Jumbotron --> */}
     // </section>
-    <Container maxW={"7xl"}>
-      <div className="container my-24 mx-auto md:px-6">
+    <div className="bg-blue-50 pt-8 mb-6">
+      <Container maxW={"7xl"}>
+      <div className="container my-24 pb-[2px] mx-auto md:px-6">
         <section className="mb-32">
           {/* <h2 className="mb-12 text-center text-3xl font-bold">
           </h2> */}
@@ -373,6 +374,8 @@ const About = () => {
         {/* <!-- Section: Design Block --> */}
       </div>
     </Container>
+    </div>
+    
   );
 };
 

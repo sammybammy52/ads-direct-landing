@@ -7,6 +7,7 @@ import Hero from './components/Hero'
 import NavBar from './components/NavBar'
 import Newsletter from './components/Newsletter'
 import Partners from './components/Partners'
+import PopularAds from './components/PopularAds'
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
      <Hero/>
      <ExploreSection/>
      <About/>
+     <PopularAds/>
      <CtaSection/>
      <Partners/>
      <Newsletter/>
