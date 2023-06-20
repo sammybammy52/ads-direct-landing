@@ -191,7 +191,7 @@ const About = () => {
             Here at Ads Direct we focus on markets where technology, innovation,
             and capital can unlock long-term value and drive economic growth.
           </p> */}
-          <p className="text-center mb-6 pb-2 font-light text-gray-500 ">
+          <p className="text-center mb-6 pb-2 font-lightt text-gray-500 ">
             Here at Ads Direct we focus on markets where technology, innovation,
             and capital can unlock long-term value and drive economic growth.
           </p>
@@ -224,7 +224,7 @@ const About = () => {
                   <h4 class="flex font-light text-black gap-2 text-xl">
                     Marketing
                   </h4>
-                  <p className="font-light text-gray-500 mr-4">
+                  <p className="font-lightt text-gray-500 mr-4">
                     Plan it, create it, launch it. Collaborate seamlessly with
                     all the organization and hit your marketing goals every
                     month with our marketing plan.
@@ -234,7 +234,8 @@ const About = () => {
 
               <div className="mb-12 flex">
                 <div className="shrink-0">
-                  <div className="rounded-md p-4 shadow-lg heroo-bg">
+                  {/* <div className="rounded-md p-4 shadow-lg heroo-bg"> */}
+                  <div className="rounded-md p-4 shadow-lg bg-secondary">
                     <svg
                       className="h-6 w-6 text-white "
                       fill="currentColor"
@@ -245,9 +246,10 @@ const About = () => {
                     </svg>
                   </div>
                 </div>
+                
                 <div className="ml-4 grow">
                   <h4 class="flex text-black gap-2 text-xl">Legal</h4>
-                  <p className="font-light text-gray-500 mr-4">
+                  <p className="font-lightt text-gray-500 mr-4">
                     Protect your organization, devices and stay compliant with
                     our structured workflows and custom permissions made for
                     you.
@@ -274,7 +276,7 @@ const About = () => {
                 </div>
                 <div className="ml-4 grow">
                   <h4 class="flex gap-2 text-xl">Business Automation</h4>
-                  <p className="font-light text-gray-500 mr-4">
+                  <p className="fontt-light text-gray-500 mr-4">
                     Auto-assign tasks, send Slack messages, and much more. Now
                     power up with hundreds of new templates to help you get
                     started.
@@ -285,7 +287,7 @@ const About = () => {
               {/*  Enterprise Design */}
               <div className="mb-12 flex">
                 <div className="shrink-0">
-                  <div className="rounded-md p-4 shadow-lg heroo-bg">
+                  <div className="rounded-md p-4 shadow-lg bg-secondary">
                     <svg
                       className="h-6 w-6 text-white"
                       fill="currentColor"
@@ -300,7 +302,7 @@ const About = () => {
                   <h4 class="flex text-black gap-2 text-xl">
                     Enterprise Design
                   </h4>
-                  <p className="font-light text-gray-500 mr-4">
+                  <p className="font-lightt text-gray-500 mr-4">
                     Craft beautiful, delightful experiences for both marketing
                     and product with real cross-company collaboration.
                   </p>
@@ -329,7 +331,7 @@ const About = () => {
                 </div>
                 <div className="ml-4 grow">
                   <h4 class="flex text-black gap-2 text-xl">Finance</h4>
-                  <p className="font-light text-gray-500 mr-4">
+                  <p className="font-lightt text-gray-500 mr-4">
                     Audit-proof software built for critical financial operations
                     like month-end close and quarterly budgeting.
                   </p>
@@ -340,7 +342,7 @@ const About = () => {
 
               <div className="mb-12 flex">
                 <div className="shrink-0">
-                  <div className="rounded-md p-4 shadow-lg heroo-bg">
+                  <div className="rounded-md p-4 shadow-lg bg-secondary">
                     <svg
                       className="h-6 w-6 text-white"
                       fill="currentColor"
@@ -357,7 +359,8 @@ const About = () => {
                 </div>
                 <div className="ml-4 grow">
                   <h4 class="flex text-black gap-2 text-xl">Operations</h4>
-                  <p className="font-light text-gray-500 mr-4">
+                  <p className="font-lightt text-gray-600 mr-4">
+                  {/* <p className="font-light text-gray-50 mr-4"> */}
                     Keep your company’s lights on with customizable, iterative,
                     and structured workflows built for all efficient teams and
                     individual.

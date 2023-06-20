@@ -11,6 +11,8 @@ import vanguard from "../assets/images/pngs/Vanguard-removebg.png";
 import channels from "../assets/images/pngs/channels-TV.png";
 import guardian from "../assets/images/pngs/the-guardian-removebg.png";
 import jumiaLogo from "../assets/images/pngs/Jumia-Logo.png";
+import businessDay from "../assets/images/pngs/BusinessdayLogo.png";
+import tvc from "../assets/images/pngs/tvc.png";
 import cnn from "../assets/images/pngs/CNN.png";
 import { Container } from "@chakra-ui/react";
 
@@ -29,7 +31,7 @@ const Partners = () => {
             <h3 className="text-center text-3xl font-semibold ">
               <span className="text-primary">Our Trusted Partners And Clients</span>
             </h3>
-            <p className="text-base leading-6 text-center text-gray-600 w-full md:w-10/12">
+            <p className="text-base font-lightt leading-6 text-center text-gray-600 w-full md:w-10/12">
               We just got featured in the following magazines and it has been
               the most incredible journey. We work with the best fashion
               magazines across the world
@@ -43,13 +45,14 @@ const Partners = () => {
                   <Image src={foxChannel} className="" height="100" width="100" />
                   <Image src={vanguard} className="" height="100" width="100" />
                   <Image src={ariseNews} className="" height="100" width="100" />
+                  <Image src={businessDay} className="" height="100" width="100" />                 
                   {/* <Image src={channels} className="" height="100" width="100" /> */}
                   <Image src={jumiaLogo} className="" height="100" width="100" />
                   <Image src={thePunch} className="" height="120" width="120" />
                   <Image src={theSun} className="" height="120" width="120" />
                 </div>
                 <div className="embla__slide flex items-center space-x-4 embla-margin">
-                  <Image src={SVGs.threeM} className="" height="100" width="100" />
+                  <Image src={tvc} className="" height="100" width="100" />
                   <Image src={cnn} className="" height="100" width="100" />
                   <Image src={SVGs.budweiser} className="" height="100" width="100" />
                   <Image src={guardian} className="" height="100" width="100" />
@@ -62,7 +65,6 @@ const Partners = () => {
                     <Image src={theSun} className="" height="120" width="120" />
                     <Image src={SVGs.mensHealth} className="" height="100" width="100" />
                     <Image src={ariseNews} className="" height="100" width="100" />
-                    <Image src={SVGs.threeM} className="" height="100" width="100" />
                     <Image src={SVGs.budweiser} className="" height="100" width="100" />
                     <Image src={thePunch} className="" height="120" width="120" />
                     <Image src={vanguard} className="" height="100" width="100" />
