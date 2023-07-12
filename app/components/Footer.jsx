@@ -1,7 +1,7 @@
 "use client";
 import Image from "next/image";
 import React from "react";
-// import Logo from "../assets/images/pngs/newLogo.png"
+import Logo from "../assets/images/pngs/adspoosh-light.png";
 import { SVGs } from "../assets/svgs/SVGs";
 import { Container } from "@chakra-ui/react";
 
@@ -192,7 +192,8 @@ const Footer = () => {
         <div class="mb-10 w-full">
           <a href="javascript:void(0)" class="mb-6 inline-block max-w-[160px]">
             <Image
-              src={SVGs.logoWhite}
+              // src={SVGs.logoWhite}
+              src={Logo}
               alt="logo"
               class="max-w-full"
             />

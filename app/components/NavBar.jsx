@@ -2,8 +2,8 @@
 import { useState, useEffect } from "react";
 import Image from "next/image";
 import Fade from "react-reveal/Fade";
-import Logo from "../assets/images/pngs/newLogoFull.png"
-// import LogoW from "../assets/images/pngs/newLogoFull.png"
+import Logo from "../assets/images/pngs/adspoosh-light.png";
+import LogoW from "../assets/images/pngs/adspoosh-dark.png"
 import { SVGs } from "../assets/svgs/SVGs";
 // import Logo from "../assets/logo.png"
 // import LogoW from "../assets/logo-white.png"
@@ -41,7 +41,7 @@ const NavBar = () => {
     >
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto px-4 ">
         <a href="https://flowbite.com/" className="lg:flex lg:items-center">
-           <Image src={ fix || mobileNav ? Logo : Logo} className="p-2 lg:ml-8 lg:mr-3 w-[80px] lg:h-[80px] max-md:h-[70px] object-contain drop-shadow-md" alt="ads-direct-logo" />
+           <Image src={ fix || mobileNav ? LogoW : Logo} className="p-2 lg:ml-8 lg:mr-3 w-[80px] lg:h-[80px] max-md:h-[70px] object-contain drop-shadow-md" alt="ads-direct-logo" />
           {/* <span className={ fix || mobileNav ? "self-center text-2xl font-semibold whitespace-nowrap " : "self-center text-2xl font-semibold whitespace-nowrap text-white"}>
             Ads Direct
           </span> */}
