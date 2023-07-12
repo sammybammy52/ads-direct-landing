@@ -29,7 +29,7 @@ const Partners = () => {
               
             </h1> */}
             <h3 className="text-center text-3xl font-semibold ">
-              <span className="text-primary">Our Trusted Partners And Clients</span>
+              <span className="text-primary">Our Trusted <span className=" text-secondary">Partners</span> And Clients</span>
             </h3>
             <p className="text-base font-lightt leading-6 text-center text-gray-600 w-full md:w-10/12">
               We just got featured in the following magazines and it has been

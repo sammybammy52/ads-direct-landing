@@ -185,7 +185,7 @@ const Footer = () => {
     // <!-- ====== Footer Section Start -->
     // <Container maxW={"7xl"}>
 
-<footer class="relative z-10 footer bg-slate-900 pt-20 pb-10 lg:pt-[120px] lg:pb-10">
+<footer class="relative z-10 footer bg-black pt-20 pb-10 lg:pt-[120px] lg:pb-10">
   <div class="container mx-auto">
     <div class="-mx-4 flex flex-wrap">
       <div class="w-full px-4 sm:w-2/3 lg:w-3/12">
