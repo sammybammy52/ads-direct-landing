@@ -5,7 +5,7 @@ import { BsFillPersonVcardFill, BsBoxSeam } from "react-icons/bs";
 import { MdOutlineRealEstateAgent } from "react-icons/md";
 import { FaCross, FaHandsHelping } from "react-icons/fa";
 import Image from "next/image";
-import Confused from "../assets/confused.png";
+import phone from "../assets/images/pngs/phone.png";
 import Fade from "react-reveal/Fade";
 
 const PopularAds = () => {
@@ -89,7 +89,7 @@ const PopularAds = () => {
           <Fade left duration={1500} delay={100}>
             <Image
               className="h-[450px] object-contain rounded-xl moving-div dark:block"
-              src={Confused}
+              src={phone}
               alt="dashboard image"
             />
           </Fade>

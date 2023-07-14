@@ -186,14 +186,14 @@ const About = () => {
           </h2> */}
 
           <h3 className="text-center text-3xl font-semibold mb-5">
-            <span className="text-primary "> Why Choose Adsdirect?</span>
+            <span className="text-primary "> Why <span className='text-secondary'>Choose </span> Adspoosh?</span>
           </h3>
           {/* <p class="mb-6 pb-2  text-neutral-500 text-black">
             Here at Ads Direct we focus on markets where technology, innovation,
             and capital can unlock long-term value and drive economic growth.
           </p> */}
           <p className="text-center mb-6 pb-2 font-lightt text-gray-500 ">
-            Here at Ads Direct we focus on markets where technology, innovation,
+            Here at Adspoosh we focus on markets where technology, innovation,
             and capital can unlock long-term value and drive economic growth.
           </p>
 
