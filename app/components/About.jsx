@@ -5,7 +5,7 @@ import Fade from "react-reveal/Fade";
 import Zoom from "react-reveal/Zoom";
 import Image from "next/image";
 // import { SVGs } from "../assets/svgs/SVGs";
-import adsDirect from "../assets/images/about-img.jpg";
+import adsDirect from "../assets/images/about-imgg.jpg";
 
 const About = () => {
   return (

@@ -88,7 +88,7 @@ const PopularAds = () => {
 
           <Fade left duration={1500} delay={100}>
             <Image
-              className="h-[450px] object-contain rounded-xl moving-div dark:block"
+              className="h-[505px] object-contain rounded-xl moving-div dark:block"
               src={phone}
               alt="dashboard image"
             />

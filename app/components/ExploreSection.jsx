@@ -18,7 +18,7 @@ const ExploreSection = () => {
       <section className="mb-32 ">
         <div className="container my-24 mx-auto">
           <h3 className="text-center text-3xl font-semibold mb-10">
-            <span className="text-primary">Explore Ad Boards by genre</span>
+            <span className="text-primary">Explore <span className=" text-secondary">Ad Boards</span> by genre</span>
           </h3>
           <Fade left delay={300} duration={1700}>
             <div className="grid grid-cols-4 max-md:grid-cols-3 max-sm:grid-cols-1 gap-4">
