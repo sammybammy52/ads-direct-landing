@@ -9,6 +9,7 @@ import Newsletter from './components/Newsletter'
 import Partners from './components/Partners'
 import PopularAds from './components/PopularAds'
 import Join from './components/Join'
+import Forms from './components/Forms'
 
 export default function Home() {
   return (
@@ -22,6 +23,7 @@ export default function Home() {
      <CtaSection/>
      <Partners/>
      <Newsletter/>
+     <Forms />
      <Footer/>
     </div>
   )

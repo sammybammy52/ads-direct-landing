@@ -24,7 +24,6 @@
 
 .cursor-pointer {
   cursor: pointer;
-  background-image: url('https://mdbcdn.b-cdn.net/img/new/slides/146.webp');
 
 }
 
@@ -62,10 +61,28 @@
     flex: 0 0 250%;
     min-width: 0;
   }
+  .embla__slidee {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    flex: 0 0 95%;
+    min-width: 0;
+  }
+  .embla__slidee img {
+    height: 450px;
+    width: 500px;
+    margin: 0 40px;
+  }  
+  /* .embla__slide img {
+    height: 450px;
+    width: 500px;
+    margin: 0 40px;
+  }   */
+
   .embla__slide img {
     height: 50px;
     margin: 0 40px;
-  }  
+  }
 
   .embla-margin {
     margin-right: 25px;
@@ -120,11 +137,11 @@
    
 
 
-  .hero-img {
+  /* .hero-img {
     background-position: 50%;
     background-image: url('https://mdbcdn.b-cdn.net/img/new/slides/146.webp');
     min-height: 490px;
-  }
+  } */
 
   .zoom:hover img {
     transform: scale(1.1);
@@ -142,6 +159,12 @@
 
 .seye-shadow{
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.form-style {
+    padding: 40px;
+    border: 1px solid  rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 20px;
 }
 
 

@@ -1,6 +1,8 @@
 "use client";
-import useEmblaCarousel from "embla-carousel-react";
-import Autoplay from "embla-carousel-autoplay";
+// import useEmblaCarousel from "embla-carousel-react";
+// import { EmblaCarousel } from 'embla-carousel';
+
+// import Autoplay from "embla-carousel-autoplay";
 import Image from "next/image";
 import { SVGs } from "../assets/svgs/SVGs";
 import thePunch from "../assets/punch-logo.png";
@@ -15,26 +17,24 @@ import businessDay from "../assets/images/pngs/BusinessdayLogo.png";
 import tvc from "../assets/images/pngs/tvc.png";
 import cnn from "../assets/images/pngs/CNN.png";
 import { Container } from "@chakra-ui/react";
+import Fade from "react-reveal/Fade";
 
 const Partners = () => {
-  const [emblaRef] = useEmblaCarousel({ loop: false }, [Autoplay()]);
+  // const [emblaRef] = useEmblaCarousel({ loop: false }, [Autoplay()]);
 
   return (
-    
-    <div className="py-20">
-      <div className="2xl:mx-auto 2xl:container py-12 lg:px-20 md:px-6 px-4 ">
+    <div className=" bg-blue-50 py-20">
+      {/* <div className="2xl:mx-auto 2xl:container py-12 lg:px-20 md:px-6 px-4 ">
         <div className="w-full flex flex-col justify-center items-center">
           <div className="flex flex-col justify-center items-center text-center space-y-4">
-            {/* <h1 className="text-3xl lg:text-4xl font-semibold leading-9 md:leading-7 lg:leading-9 text-gray-800">
-              
-            </h1> */}
+          
             <h3 className="text-center text-3xl font-semibold ">
               <span className="text-primary">Our Trusted <span className=" text-secondary">Partners</span> And Clients</span>
             </h3>
             <p className="text-base font-lightt leading-6 text-center text-gray-600 w-full md:w-10/12">
               We just got featured in the following magazines and it has been
               the most incredible journey. We work with the best fashion
-              magazines across the world
+              magazines across the world.
             </p>
           </div>
             <Container maxW={"7xl"}>
@@ -46,7 +46,7 @@ const Partners = () => {
                   <Image src={vanguard} className="" height="100" width="100" />
                   <Image src={ariseNews} className="" height="100" width="100" />
                   <Image src={businessDay} className="" height="100" width="100" />                 
-                  {/* <Image src={channels} className="" height="100" width="100" /> */}
+                  
                   <Image src={jumiaLogo} className="" height="100" width="100" />
                   <Image src={thePunch} className="" height="120" width="120" />
                   <Image src={theSun} className="" height="120" width="120" />
@@ -76,7 +76,63 @@ const Partners = () => {
             </div>
             </Container>
         </div>
-      </div>
+      </div> */}
+      <Container maxW={"7xl"}>
+        <section className="mb-32 ">
+          <div className="container my-24 mx-auto">
+          <div className="flex flex-col justify-center items-center text-center space-y-4">
+          
+          <h3 className="text-center text-3xl font-semibold ">
+            <span className="text-primary">Our Trusted <span className=" text-secondary">Partners</span> And Clients</span>
+          </h3>
+          <p className="text-base font-lightt leading-6 text-center text-black-500 md:text-lg text-gray-800 w-full md:w-10/12">
+            We just got featured in the following magazines and it has been
+            the most incredible journey. We work with the best fashion
+            magazines across the world.
+          </p>
+        </div>
+            <Fade left delay={300} duration={1700}>
+              <div className="flex justify-center mt-8 items-center">
+                <div className="grid grid-cols-8 max-md:grid-cols-4 max-sm:grid-cols-2 gap-4 items-center">
+                  <Image
+                    src={foxChannel}
+                    className=""
+                    height="100"
+                    width="100"
+                  />
+                  <Image src={vanguard} className="" height="100" width="100" />
+                  <Image src={theSun} className="" height="120" width="120" />
+                  <Image
+                    src={businessDay}
+                    className=""
+                    height="100"
+                    width="100"
+                  />
+                  <Image src={tvc} className="" height="100" width="100" />
+                  <Image src={cnn} className="" height="100" width="100" />
+                  <Image src={guardian} className="" height="100" width="100" />
+                  <Image src={vanguard} className="" height="100" width="100" />
+
+                  <Image
+                    src={jumiaLogo}
+                    className=""
+                    height="100"
+                    width="100"
+                  />
+                  <Image src={thePunch} className="" height="120" width="120" />
+                  <Image src={theSun} className="" height="120" width="120" />
+
+                  <Image src={thePunch} className="" height="120" width="120" />
+                  <Image src={vanguard} className="" height="100" width="100" />
+                  <Image src={vanguard} className="" height="100" width="100" />
+                  <Image src={vanguard} className="" height="100" width="100" />
+                  <Image src={vanguard} className="" height="100" width="100" />
+                </div>
+              </div>
+            </Fade>
+          </div>
+        </section>
+      </Container>
     </div>
   );
 };

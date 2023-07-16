@@ -4,7 +4,7 @@ import Confused from '../assets/confused.png'
 import Fade from 'react-reveal/Fade';
 const CtaSection = () => {
   return (
-    <section className="bg-blue-50 ">
+    <section className=" ">
   <div className="gap-8 items-center py-8 px-4 mx-auto max-w-screen-xl xl:gap-16 md:grid md:grid-cols-2 sm:py-16 lg:px-6">
     <Fade left duration={1500} delay={100}>
       <Image className="h-[450px] object-contain rounded-xl moving-div dark:block" src={Confused} alt="dashboard image" />

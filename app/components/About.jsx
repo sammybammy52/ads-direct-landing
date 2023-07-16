@@ -178,7 +178,7 @@ const About = () => {
     //   </div>
     //   {/* <!-- Jumbotron --> */}
     // </section>
-    <div className="bg-blue-50 pt-8 mb-6">
+    <div className=" pt-8 mb-6">
       <Container maxW={"7xl"}>
       <div className="container my-24 pb-[2px] mx-auto md:px-6">
         <section className="mb-32">
@@ -192,7 +192,7 @@ const About = () => {
             Here at Ads Direct we focus on markets where technology, innovation,
             and capital can unlock long-term value and drive economic growth.
           </p> */}
-          <p className="text-center mb-6 pb-2 font-lightt text-gray-500 ">
+          <p className="text-center mb-6 pb-2 font-lightt md:text-lg text-gray-800 ">
             Here at Adspoosh we focus on markets where technology, innovation,
             and capital can unlock long-term value and drive economic growth.
           </p>
@@ -225,7 +225,7 @@ const About = () => {
                   <h4 class="flex text-black gap-2 text-xl">
                     Marketing
                   </h4>
-                  <p className="font-lightt text-gray-500 mr-4">
+                  <p className="font-lightt text-gray-600 mr-4">
                     Plan it, create it, launch it. Collaborate seamlessly with
                     all the organization and hit your marketing goals every
                     month with our marketing plan.
@@ -250,7 +250,7 @@ const About = () => {
                 
                 <div className="ml-4 grow">
                   <h4 class="flex text-black gap-2 text-xl">Legal</h4>
-                  <p className="font-lightt text-gray-500 mr-4">
+                  <p className="font-lightt text-gray-600 mr-4">
                     Protect your organization, devices and stay compliant with
                     our structured workflows and custom permissions made for
                     you.
@@ -277,7 +277,7 @@ const About = () => {
                 </div>
                 <div className="ml-4 grow">
                   <h4 class="flex gap-2 text-xl">Business Automation</h4>
-                  <p className="fontt-light text-gray-500 mr-4">
+                  <p className="font-lightt text-gray-600 mr-4">
                     Auto-assign tasks, send Slack messages, and much more. Now
                     power up with hundreds of new templates to help you get
                     started.
@@ -303,7 +303,7 @@ const About = () => {
                   <h4 class="flex text-black gap-2 text-xl">
                     Enterprise Design
                   </h4>
-                  <p className="font-lightt text-gray-500 mr-4">
+                  <p className="font-lightt text-gray-600 mr-4">
                     Craft beautiful, delightful experiences for both marketing
                     and product with real cross-company collaboration.
                   </p>
@@ -332,7 +332,7 @@ const About = () => {
                 </div>
                 <div className="ml-4 grow">
                   <h4 class="flex text-black gap-2 text-xl">Finance</h4>
-                  <p className="font-lightt text-gray-500 mr-4">
+                  <p className="font-lightt text-gray-600 mr-4">
                     Audit-proof software built for critical financial operations
                     like month-end close and quarterly budgeting.
                   </p>
