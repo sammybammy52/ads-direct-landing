@@ -14,6 +14,13 @@ import channels from "../assets/images/pngs/channels-TV.png";
 import guardian from "../assets/images/pngs/the-guardian-removebg.png";
 import jumiaLogo from "../assets/images/pngs/Jumia-Logo.png";
 import businessDay from "../assets/images/pngs/BusinessdayLogo.png";
+import Dangote from "../assets/images/pngs/dangote.jpg";
+import Thisday from "../assets/images/pngs/thisday.png";
+import Nta from "../assets/images/pngs/nta.png";
+import Glo from "../assets/images/pngs/glo.png";
+import NigerianPilot from "../assets/images/pngs/Nig-pilot.png";
+import Konga from "../assets/images/pngs/Konga.png";
+import Arise from "../assets/images/pngs/arise.png";
 import tvc from "../assets/images/pngs/tvc.png";
 import cnn from "../assets/images/pngs/CNN.png";
 import { Container } from "@chakra-ui/react";
@@ -111,7 +118,7 @@ const Partners = () => {
                   <Image src={tvc} className="" height="100" width="100" />
                   <Image src={cnn} className="" height="100" width="100" />
                   <Image src={guardian} className="" height="100" width="100" />
-                  <Image src={vanguard} className="" height="100" width="100" />
+                  <Image src={Thisday} className="" height="100" width="100" />
 
                   <Image
                     src={jumiaLogo}
@@ -119,14 +126,14 @@ const Partners = () => {
                     height="100"
                     width="100"
                   />
-                  <Image src={thePunch} className="" height="120" width="120" />
-                  <Image src={theSun} className="" height="120" width="120" />
+                  <Image src={Nta} className="" height="120" width="120" />
+                  <Image src={Glo} className="" height="120" width="120" />
 
                   <Image src={thePunch} className="" height="120" width="120" />
-                  <Image src={vanguard} className="" height="100" width="100" />
-                  <Image src={vanguard} className="" height="100" width="100" />
-                  <Image src={vanguard} className="" height="100" width="100" />
-                  <Image src={vanguard} className="" height="100" width="100" />
+                  <Image src={Dangote} className="" height="100" width="100" />
+                  <Image src={Konga} className="" height="100" width="100" />
+                  <Image src={Arise} className="" height="100" width="100" />
+                  <Image src={NigerianPilot} className="" height="100" width="100" />
                 </div>
               </div>
             </Fade>
