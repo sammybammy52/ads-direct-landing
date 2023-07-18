@@ -2,8 +2,8 @@
 import { useState, useEffect } from "react";
 import Image from "next/image";
 import Fade from "react-reveal/Fade";
-import Logo from "../assets/images/pngs/adspoosh-light.png";
-import LogoW from "../assets/images/pngs/ad.png"
+// import LogoW from "../assets/images/pngs/adspoosh-light.png";
+import Logo from "../assets/images/pngs/ad.png"
 import { SVGs } from "../assets/svgs/SVGs";
 // import Logo from "../assets/logo.png"
 // import LogoW from "../assets/logo-white.png"
@@ -41,7 +41,7 @@ const NavBar = () => {
     >
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto px-4 ">
         <a href="https://flowbite.com/" className="lg:flex lg:items-center">
-           <Image src={ fix || mobileNav ? LogoW : Logo} className="p-2 lg:ml-8 lg:mr-3 w-[179px] lg:h-[61px] max-md:h-[70px] object-contain drop-shadow-md" alt="ads-direct-logo" />
+           <Image src={ fix || mobileNav ? Logo : Logo} className="p-2 lg:ml-8 lg:mr-3 w-[179px] lg:h-[61px] max-md:h-[70px] object-contain drop-shadow-md" alt="ads-direct-logo" />
           {/* <span className={ fix || mobileNav ? "self-center text-2xl font-semibold whitespace-nowrap " : "self-center text-2xl font-semibold whitespace-nowrap text-white"}>
             Ads Direct
           </span> */}
@@ -50,7 +50,7 @@ const NavBar = () => {
           <a href="https://test.digitaladplanet.com/dashboard/login">
             <button
             type="button"
-            className={ fix || mobileNav ? "text-white bg-secondary hover:scale-110 transition-all duration-300 focus:ring-4 focus:outline-none focus:ring-blue-300 font-semibold rounded-lg text-sm px-4 py-2 text-center mr-3 md:mr-0 shadow-lg" : "text-white bg-secondary hover:scale-110 transition-all duration-300 focus:ring-4 focus:outline-none focus:ring-blue-300 font-semibold rounded-lg text-sm px-4 py-2 text-center mr-3 md:mr-0 shadow-sm"}
+            className={ fix || mobileNav ? "text-white bg-secondary hover:scale-110 transition-all duration-300 focus:ring-4 focus:outline-none focus:ring-blue-300 font-semibold rounded-lg text-sm px-4 py-2 text-center mr-3 md:mr-0 shadow-lg" : "text-white bg-primary hover:scale-110 transition-all duration-300 focus:ring-4 focus:outline-none focus:ring-blue-300 font-semibold rounded-lg text-sm px-4 py-2 text-center mr-3 md:mr-0 shadow-sm"}
           >
             Login
           </button>
@@ -96,7 +96,7 @@ const NavBar = () => {
                   className={
                     fix || mobileNav
                       ? "block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 "
-                      : "block py-2 pl-3 pr-4 text-white rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-gray-700 md:p-0 "
+                      : "block py-2 pl-3 pr-4 text-blue rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 "
                   }
                 >
                   Home
@@ -109,7 +109,7 @@ const NavBar = () => {
                   className={
                     fix || mobileNav
                       ? "block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 "
-                      : "block py-2 pl-3 pr-4 text-white rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-gray-700 md:p-0 "
+                      : "block py-2 pl-3 pr-4 text-blue rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 "
                   }
                 >
                   Advertisers
@@ -122,7 +122,7 @@ const NavBar = () => {
                   className={
                     fix || mobileNav
                       ? "block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 "
-                      : "block py-2 pl-3 pr-4 text-white rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-gray-700 md:p-0 "
+                      : "block py-2 pl-3 pr-4 text-blue rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 "
                   }
                 >
                   Media Houses
@@ -135,7 +135,7 @@ const NavBar = () => {
                   className={
                     fix || mobileNav
                       ? "block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 "
-                      : "block py-2 pl-3 pr-4 text-white rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-gray-700 md:p-0 "
+                      : "block py-2 pl-3 pr-4 text-blue rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 "
                   }
                 >
                   Explore Offers
