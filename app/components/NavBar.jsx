@@ -36,7 +36,7 @@ const NavBar = () => {
       className={
         fix || mobileNav
           ? "bg-white fixed z-20 w-full shadow lg:py-1 opacity-85 border-gray-200 transition-all duration-300"
-          : "absolute w-full border-gray-200 transition-all duration-300"
+          : "bg-white absolute w-full border-gray-200 lg:py-1 transition-all duration-300"
       }
     >
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto px-4 ">

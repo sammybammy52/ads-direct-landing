@@ -2,8 +2,8 @@
 import { Container } from "@chakra-ui/react";
 import Image from "next/image";
 import HeroImg from "../assets/hero.png";
-import Desktop from "../assets/images/pngs/desktop.png";
-import phone from "../assets/images/pngs/phone.png";
+import WomanSpeaker from "../assets/images/pngs/woman_head_speaker.png";
+import AfricanMan from "../assets/images/pngs/african-man.png";
 import BusinessMan from "../assets/images/pngs/herobg.png";
 import Fade from "react-reveal/Fade";
 import NavBar from "./NavBar";
@@ -23,12 +23,12 @@ const Hero = () => {
 
       <div class="relative overflow-hidden bg-cover bg-blue-50 bg-no-repeat lg:h-screen">
         <NavBar />
-        <div className="gap-8 items-center py-8 px-4 mx-auto max-w-screen-xl xl:gap-16 md:grid md:grid-cols-2 sm:py-16 lg:px-6 lg:h-screen">
+        <div className="gap-8 items-center py-8 px-4 mx-auto max-w-screen-xl xl:gap-16 md:grid md:grid-cols-10 sm:py-16 lg:px-6 lg:h-screen">
           {/* <div class="absolute top-0 right-0 bottom-0 left-0 h-full w-full overflow-hidden bg-[hsla(0,0%,0%,0.75)] bg-fixed"> */}
 
           <Fade left delay={300} duration={1500}>
-            <div className="mt-12 lg:mt-0 max-md:mt-20">
-              <h1 className="text-4xl md:text-3xl xl:text-5xl font-bold tracking-tight mb-6 text-gray">
+            <div className="mt-12 lg:mt-0 max-md:mt-20 md:col-span-5">
+              <h1 className="text-3xl md:text-3xl xl:text-4xl font-bold tracking-tight mb-6 text-gray">
                 Find and buy the best advertising options <br />
                 <span className=" text-primary">on the go</span>
               </h1>
@@ -57,16 +57,16 @@ const Hero = () => {
           </Fade> */}
            {/* <Container maxW={"7xl"}> */}
 
-            <div className="embla" ref={emblaRef}>
+            <div className="embla col-span-5" ref={emblaRef}>
               <div className="embla__container">
                 <div className="embla__slidee flex">
-                  <Image src={Desktop} className="w-[450px] object-contain rounded-xl moving-div dark:block"  />
+                  <Image src={WomanSpeaker} className="w-full object-contain  rounded-xl moving-div dark:block"  />
                 </div>
                 <div className="embla__slidee flex">
-                  <Image src={phone} className="w-[450px] object-contain rounded-xl moving-div dark:block" height="100" width="100" />
+                  <Image src={AfricanMan} className="w-full object-contain  rounded-xl moving-div dark:block" height="120" width="120" />
                 </div>
                 <div className="embla__slidee flex ">
-                    <Image src={BusinessMan} className="w-[450px] object-contain rounded-xl moving-div dark:block" height="120" width="120" />
+                    <Image src={BusinessMan} className="w-full object-contain  rounded-xl moving-div dark:block" height="120" width="120" />
                 </div>
               </div>
             </div>

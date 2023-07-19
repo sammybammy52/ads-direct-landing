@@ -65,13 +65,14 @@
     display: flex;
     justify-content: center;
     margin-top: 40px;
-    flex: 0 0 95%;
+    flex: 0 0 100%;
     min-width: 0;
   }
   .embla__slidee img {
-    height: 450px;
-    width: 500px;
-    margin: 0 40px;
+    height: 85vh;
+    /* height: 450px;
+    width: 500px; */
+    /* margin: 0 40px; */
   }  
   /* .embla__slide img {
     height: 450px;
