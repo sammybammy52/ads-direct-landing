@@ -168,6 +168,24 @@
     border-radius: 20px;
 }
 
+.bg-grad-primary {
+  background: rgb(88, 90, 168);
+  background: linear-gradient(
+    90deg,
+    rgba(88, 90, 168, 1) 0%,
+    rgba(0, 89, 157, 1) 100%
+  );
+}
+
+.bg-grad-secondary {
+  background: rgb(241, 84, 74);
+  background: linear-gradient(
+    90deg,
+    rgba(241, 84, 74, 1) 0%,
+    rgba(156, 31, 46, 1) 100%
+  );
+}
+
 
 
 
