@@ -190,7 +190,7 @@ const Footer = () => {
             <div class="mb-10 w-full">
               <a
                 href="javascript:void(0)"
-                class="mb-6 inline-block max-w-[260px]"
+                class="mb-6 inline-block max-w-[180px]"
               >
                 <Image
                   // src={SVGs.logoWhite}
