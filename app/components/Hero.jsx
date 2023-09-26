@@ -39,7 +39,7 @@ const Hero = () => {
                 className="inline-block px-7 py-3 mt-4 mr-2 bg-primary text-white font-semibold text-sm leading-snug uppercase rounded-lg shadow-md hover:scale-110  hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition-all duration-150 ease-in-out"
                 data-mdb-ripple="true"
                 data-mdb-ripple-color="light"
-                href="https://test.digitaladplanet.com/dashboard/login"
+                href="/dashboard/register"
                 role="button"
               >
                 Get started
@@ -56,7 +56,7 @@ const Hero = () => {
           </Fade> */}
            {/* <Container maxW={"7xl"}> */}
 
-            <div className="embla col-span-5" ref={emblaRef}>
+            <div className="embla col-span-5 mt-20" ref={emblaRef}>
               <div className="embla__container">
                 <div className="embla__slidee flex">
                   <Image src={WomanSpeaker} className="w-full object-contain  rounded-xl moving-div dark:block"  />

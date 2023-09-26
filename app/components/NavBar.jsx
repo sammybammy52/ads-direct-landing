@@ -40,14 +40,14 @@ const NavBar = () => {
       }
     >
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto px-4 ">
-        <a href="https://flowbite.com/" className="lg:flex lg:items-center">
+        <a href="/dashboard" className="lg:flex lg:items-center">
            <Image src={ fix || mobileNav ? Logo : Logo} className="p-2 lg:ml-8 lg:mr-3 w-[179px] lg:h-[61px] max-md:h-[70px] object-contain drop-shadow-md" alt="ads-direct-logo" />
           {/* <span className={ fix || mobileNav ? "self-center text-2xl font-semibold whitespace-nowrap " : "self-center text-2xl font-semibold whitespace-nowrap text-white"}>
             Ads Direct
           </span> */}
         </a>
         <div className="flex md:order-2">
-          <a href="https://test.digitaladplanet.com/dashboard/login">
+          <a href="/dashboard/login">
             <button
             type="button"
             className={ fix || mobileNav ? "text-white bg-secondary hover:scale-110 transition-all duration-300 focus:ring-4 focus:outline-none focus:ring-blue-300 font-semibold rounded-lg text-sm px-4 py-2 text-center mr-3 md:mr-0 shadow-lg" : "text-white bg-primary hover:scale-110 transition-all duration-300 focus:ring-4 focus:outline-none focus:ring-blue-300 font-semibold rounded-lg text-sm px-4 py-2 text-center mr-3 md:mr-0 shadow-sm"}
@@ -92,7 +92,7 @@ const NavBar = () => {
             <ul className="flex flex-col font-medium p-4 md:p-0 mt-4 border border-gray-100 rounded-lg  md:flex-row md:space-x-8 md:mt-0 md:border-0 ">
               <li>
                 <a
-                  href="#"
+                  href="/dashboard/login"
                   className={
                     fix || mobileNav
                       ? "block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 "
@@ -105,7 +105,7 @@ const NavBar = () => {
 
               <li>
                 <a
-                  href="https://test.digitaladplanet.com/dashboard/login"
+                  href="/dashboard/login"
                   className={
                     fix || mobileNav
                       ? "block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 "
@@ -118,7 +118,7 @@ const NavBar = () => {
               
               <li>
                 <a
-                  href="https://test.digitaladplanet.com/dashboard/login"
+                  href="/dashboard/login"
                   className={
                     fix || mobileNav
                       ? "block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 "
@@ -131,7 +131,7 @@ const NavBar = () => {
 
               <li>
                 <a
-                  href="/adboards"
+                  href="/dashboard/login"
                   className={
                     fix || mobileNav
                       ? "block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 "
