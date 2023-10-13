@@ -21,22 +21,22 @@ const Hero = () => {
     <section className="  lg:h-screen">
       {/* <div class="relative hero-img overflow-hidden bg-cover bg-no-repeat"> */}
 
-      <div class="relative overflow-hidden bg-cover bg-blue-50 bg-no-repeat lg:h-screen">
+      <div class="relative overflow-hidden bg-cover hero-bg bg-blue-900 bg-no-repeat lg:h-screen">
         <NavBar />
         <div className=" items-center py-8 px-4 mx-auto max-w-screen-xl xl:gap-16 md:grid md:grid-cols-10 sm:py-16 lg:px-6 lg:h-screen">
           {/* <div class="absolute top-0 right-0 bottom-0 left-0 h-full w-full overflow-hidden bg-[hsla(0,0%,0%,0.75)] bg-fixed"> */}
 
           <Fade left delay={300} duration={1500}>
             <div className="mt-12 lg:mt-0 max-md:mt-20 md:col-span-5 xl:ms-14 xl:mr-[-56px]">
-              <h1 className="text-3xl md:text-3xl xl:text-3xl font-bold tracking-tight mb-6 text-gray">
-                Launch AD Campaigns that connect with your target audience on<br />
-                <span className=" text-primary">multiple media channels with ease</span>
+              <h1 className="text-3xl md:text-3xl xl:text-4xl font-bold tracking-tight mb-6 text-gray-100">
+                Launch AD Campaigns that connect with your target audience<br />
+                {/* <span className=" text-red-200">multiple media channels with ease</span> */}
               </h1>
-              <p className=" text-gray mb-6 lg:text-lg my-3">
+              <p className=" text-gray mb-6 lg:text-lg my-3 text-gray-200">
                 Advertising has never been easier!.
               </p>
               <a
-                className="inline-block px-7 py-3 mt-4 mr-2 bg-primary text-white font-semibold text-sm leading-snug uppercase rounded-lg shadow-md hover:scale-110  hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition-all duration-150 ease-in-out"
+                className="inline-block px-7 py-3 mt-4 mr-2 bg-white  text-secondary font-semibold text-sm leading-snug uppercase rounded-lg shadow-md hover:scale-110  hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition-all duration-150 ease-in-out"
                 data-mdb-ripple="true"
                 data-mdb-ripple-color="light"
                 href="/dashboard/register"

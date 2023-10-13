@@ -36,12 +36,12 @@ const NavBar = () => {
       className={
         fix || mobileNav
           ? "bg-white fixed z-20 w-full shadow lg:py-1 opacity-85 border-gray-200 transition-all duration-300"
-          : "bg-white absolute w-full border-gray-200 lg:py-1 transition-all duration-300"
+          : " absolute w-full border-gray-200 lg:py-1 transition-all duration-300"
       }
     >
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto px-4 ">
         <a href="/dashboard" className="lg:flex lg:items-center">
-           <Image src={ fix || mobileNav ? Logo : Logo} className="p-2 lg:ml-8 lg:mr-3 w-[179px] lg:h-[61px] max-md:h-[70px] object-contain drop-shadow-md" alt="ads-direct-logo" />
+           <Image src={ fix || mobileNav ? Logo : Logo} className="p-2 lg:mr-3 w-[179px] lg:h-[61px] max-md:h-[70px] object-contain drop-shadow-md" alt="ads-direct-logo" />
           {/* <span className={ fix || mobileNav ? "self-center text-2xl font-semibold whitespace-nowrap " : "self-center text-2xl font-semibold whitespace-nowrap text-white"}>
             Ads Direct
           </span> */}
@@ -96,7 +96,7 @@ const NavBar = () => {
                   className={
                     fix || mobileNav
                       ? "block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 "
-                      : "block py-2 pl-3 pr-4 text-blue rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 "
+                      : "block py-2 pl-3 pr-4 text-white rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 "
                   }
                 >
                   Home
@@ -109,7 +109,7 @@ const NavBar = () => {
                   className={
                     fix || mobileNav
                       ? "block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 "
-                      : "block py-2 pl-3 pr-4 text-blue rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 "
+                      : "block py-2 pl-3 pr-4 text-white rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 "
                   }
                 >
                   Advertisers
@@ -122,7 +122,7 @@ const NavBar = () => {
                   className={
                     fix || mobileNav
                       ? "block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 "
-                      : "block py-2 pl-3 pr-4 text-blue rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 "
+                      : "block py-2 pl-3 pr-4 text-white rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 "
                   }
                 >
                   Media Houses
@@ -135,7 +135,7 @@ const NavBar = () => {
                   className={
                     fix || mobileNav
                       ? "block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 "
-                      : "block py-2 pl-3 pr-4 text-blue rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 "
+                      : "block py-2 pl-3 pr-4 text-white rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 "
                   }
                 >
                   Explore Offers
